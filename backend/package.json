@@ -1,0 +1,39 @@
+{
+  "name": "bookly",
+  "version": "1.0.0",
+  "description": "An application to borrow a book from someone else",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AldairAvelino/bookly.git"
+  },
+  "keywords": [
+    "backend",
+    "server",
+    "API",
+    "TypeSafe",
+    "book",
+    "borrow"
+  ],
+  "author": "Aldair Avelino",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/AldairAvelino/bookly/issues"
+  },
+  "homepage": "https://github.com/AldairAvelino/bookly#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
