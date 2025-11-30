@@ -12,7 +12,8 @@
       "@middlewares/*": ["middlewares/*"],
       "@config/*": ["config/*"],
       "@utils/*": ["utils/*"],
-      "@types/*": ["types/*"]
+      "@types/*": ["types/*"],
+      "@db/*": ["db/*"]
     },
 
     // Environment Settings
