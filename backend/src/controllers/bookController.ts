@@ -1,5 +1,5 @@
 import type { Request, Response } from 'express';
-import type { Book } from '@types/book.js';
+import type { Book } from '@interfaces/book.js';
 
 export const getBooks = async (_req: Request, res: Response): Promise<void> => {
   try {
